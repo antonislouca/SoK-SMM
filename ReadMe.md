@@ -8,4 +8,5 @@ This Jupyter notebook automates the process of gathering and filtering a dataset
 - **CVE List Integration:** Clones the official CVE v5 repository and performs a deep recursive search through thousands of JSON records to identify SMM-specific vulnerabilities.
 - **Structured Data Output:** Processes and aggregates the findings into a structured format (Pandas DataFrame), capturing essential fields such as CVE IDs, descriptions, assigners, and public dates for further analysis.
 
+The Jupyter notebook provided will clone the CVE list and create a python virtual environment installing all the dependencies needed to run it, to recreate the results. This is achieved by running the first cell of the notebook.
 
